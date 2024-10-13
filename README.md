@@ -6,6 +6,8 @@ The project **"ieee802154-tx"** is a test application that sends IEEE802.15.4 fr
 
 Both projects use a utility library that provides functions to create IEEE802.15.4 headers and frames. Moreover, the library also provides functions to create Enh-ACKs according to the IEEE802.15.4-2015 standard.
 
+The functionality has been tested on ESP32-C6 boards.
+
 ## Feature Summary
 
 - Create and send IEEE802.15.4-2003 data headers/frames
@@ -20,5 +22,10 @@ In the future, I plan to support the following features:
 - Support for MAC command and beacon frames
 - Support for a PAN Coordinator
 
+## Rich Console Output
 
-The functionality has been tested on ESP32-C6 boards.
+Sender
+![Sender](./console_img/sender.png)
+
+Receiver
+![Receiver](./console_img/receiver.png)
