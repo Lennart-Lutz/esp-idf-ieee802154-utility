@@ -1,0 +1,17 @@
+# Ignore log files
+*.log
+
+# Ignore build directory
+/build
+
+# Ignore .env files
+.env
+
+# Ignore IDE specific files
+.vscode/
+*.swp
+.DS_Store
+
+# Ignore compiled files
+*.out
+*.o
